@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "outfit", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+h1,h4,p,a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.btn{
+    padding: 13px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background:yellow;
+    color: black;
+    border: 1px solid black;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-light{
+    background: transparent;
+    color: white;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+}
