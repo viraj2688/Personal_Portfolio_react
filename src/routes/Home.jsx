@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import HeroImg from '../components/HeroImg'
 
 function Home() {
   return (
     <div>
       <Navbar></Navbar>
-      <button className='btn'>
-        project
-      </button>
+      <HeroImg></HeroImg>
     </div>
   )
 }

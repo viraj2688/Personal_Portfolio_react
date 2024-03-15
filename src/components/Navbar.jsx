@@ -28,9 +28,9 @@ function Navbar() {
       </ul>
       <div className="humburger" onClick={handleClick}>
         {clicked ? (
-          <FaTimes size={30} style={{ color: "white" }}></FaTimes>
+          <FaTimes  size={40} style={{ color: "white", margin:18, marginTop:33}}></FaTimes>
         ) : (
-          <FaBars size={30} style={{ color: "white" }}></FaBars>
+          <FaBars size={40} style={{ color: "white", margin:18, marginTop:33}}></FaBars>
         )}
       </div>
     </div>
