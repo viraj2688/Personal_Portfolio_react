@@ -7,8 +7,19 @@ function Navbar() {
   const handleClick = () => {
     setClicked(!clicked);
   };
+
+  const [color, setColor] = useState(false);
+  const handleColor = () => {
+     if(window.scrollY >= 30){
+      setColor(true);
+     } else{
+      setColor(false)
+     }
+    
+  };
+  window.addEventListener("scroll", handleColor);
   return (
-    <div className="header">
+    <div className={color ?"header header-bg" :"header"}>
       <Link to="/">
         <h1>Portfolio</h1>
       </Link>
